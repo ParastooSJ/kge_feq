@@ -69,10 +69,7 @@ class BertForSequenceRegression(BertPreTrainedModel):
         relation = torch.FloatTensor(relation.to('cpu')).to('cuda')
         
         Es = LA.norm(subject+relation-objectt,dim=1)
-        
-        Es = Es+ 0.0001
-        
-        score = -1 * torch.log(Es)
+        score = -1 * Es
         
         
         if targets is not None:
