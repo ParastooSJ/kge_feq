@@ -1,0 +1,1 @@
+The data, models, results and baselines for TriviaQA, SQuAD Open, NQ, QBLINk and QANTA can be downloaded [here](https://drive.google.com/drive/folders/1fQUyknhOIdm2N2O-xj8oSECcPixy9w4F?usp=share_link)
