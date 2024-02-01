@@ -10,7 +10,7 @@ The pretrained models for both triple retrieval and answer selection, can be fou
 To run the baselines we utilized the following settings.
 
 |DATAset| Best-k|Retriver| Reader | Beta | Gamma |
-|-------|-------|-------|-------|-------|-------|-------|
+|--------|--------|--------|--------|--------|--------|
 | NQ | 50  | DPR  | Single  | -  | -  |
 | NQ | 5  | DPR+BM25  | Single  | -  | -  | 
 | NQ | 50  | DPR F  |   | Single  | 1.0  | 0.55  |
