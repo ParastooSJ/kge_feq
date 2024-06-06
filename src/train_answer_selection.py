@@ -72,7 +72,7 @@ class BertForSequenceRegression(BertPreTrainedModel):
 
         
         Es = LA.norm(subject+relation-objectt,dim=1)
-        score = -1 * Es
+        score = -1 * math.log(Es)
         
         if targets is not None:
             loss = self.loss_fct(score.view(-1), targets.view(-1))
