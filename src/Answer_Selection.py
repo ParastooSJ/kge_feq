@@ -524,9 +524,9 @@ def test(model,write=False):
 
 
 
-#train_model()
+train_model()
 model = BertForSequenceRegression.from_pretrained('bert-base-uncased',cache_dir=PYTORCH_PRETRAINED_BERT_CACHE)
-#model.load_state_dict(torch.load("../model/"+sys.argv[1]+"/embedding_transe_50.pth"), strict=False)
+model.load_state_dict(torch.load("../model/"+sys.argv[1]+"/embedding_transe_50.pth"), strict=False)
 model.to(device)
 test(model, write=True)
 
