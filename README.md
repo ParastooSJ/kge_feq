@@ -13,7 +13,7 @@ To run the baselines we utilized the following settings.
 |--------|--------|--------|--------|--------|--------|
 | NQ | 50  | DPR  | Single  | -  | -  |
 | NQ | 5  | DPR+BM25  | Single  | -  | -  | 
-| NQ | 50  | DPR F  |   | Single  | 1.0  | 0.55  |
+| NQ | 50  | DPR F  |  Single |   | 1.0  | 0.55  |
 | NQ | 200  | DPR F+BM25  | Single  | 1.0  | 0.63  |
 | NQ | 50  | GAR  | Single  | -  | -  |
 | NQ | 50  | GAR+BM25  | Single  | -  | -  |
