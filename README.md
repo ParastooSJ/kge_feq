@@ -13,7 +13,7 @@ To run the baselines we utilized the following settings.
 |--------|--------|--------|--------|--------|--------|
 | NQ | 50  | DPR  | Single  | -  | -  |
 | NQ | 5  | DPR+BM25  | Single  | -  | -  | 
-| NQ | 50  | DPR F  |  Single |   | 1.0  | 0.55  |
+| NQ | 50  | DPR F  |  Single  | 1.0  | 0.55  |
 | NQ | 200  | DPR F+BM25  | Single  | 1.0  | 0.63  |
 | NQ | 50  | GAR  | Single  | -  | -  |
 | NQ | 50  | GAR+BM25  | Single  | -  | -  |
@@ -29,7 +29,7 @@ To run the baselines we utilized the following settings.
 | TriviaQA | 480  | GAR F+BM25  | Multiset  | 0.76  | 0.15  |
 | SQuAD | 100  | DPR  | Single  | -  | -  |
 | SQuAD | 5  | DPR+BM25  | Single  | -  | -  | 
-| SQuAD | 100  | DPR F  |   | Single  | 1.0  | 0.55  |
+| SQuAD | 100  | DPR F  |  Single  | 1.0  | 0.55  |
 | SQuAD | 5  | DPR F+BM25  | Single  | 1.0  | 0.63  |
 | SQuAD | 100  | GAR  | Single  | -  | -  |
 | SQuAD | 5  | GAR+BM25  | Single  | -  | -  |
