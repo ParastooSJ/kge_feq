@@ -21,7 +21,7 @@ To run the baselines we utilized the following settings.
 | NQ | 50  | GAR F+BM25  | Single  | 0.32  | 0.19  |
 | TriviaQA | 500  | DPR  | Multiset  | -  | -  |
 | TriviaQA | 100  | DPR+BM25  | Multiset  | -  | -  | 
-| TriviaQA | 500  | DPR F  |   | Multiset  | 1.0  | 0.18  |
+| TriviaQA | 500  | DPR F  |  Multiset  | 1.0  | 0.18  |
 | TriviaQA | 480  | DPR F+BM25  | Multiset  | 1.0  | 0.17  |
 | TriviaQA | 480  | GAR  | Multiset  | -  | -  |
 | TriviaQA | 50  | GAR+BM25  | Multiset  | -  | -  |
