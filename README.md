@@ -21,7 +21,7 @@ python train {dataset_name}
 ```
 
 ## Baseline Setting
-To run the baselines we utilized the following Github repositories [DPR](https://github.com/castorini/pygaggle/blob/master/docs/experiments-dpr-reader.md), [FID](https://github.com/facebookresearch/FiD) with the following settings.
+To run the baselines we utilized the following Github repositories [Pygaggle](https://github.com/castorini/pygaggle/blob/master/docs/experiments-dpr-reader.md), [FID](https://github.com/facebookresearch/FiD) with the following settings.
 
 |DATASET| Best-k|Retriver| Reader | Beta | Gamma |
 |--------|--------|--------|--------|--------|--------|
