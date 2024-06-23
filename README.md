@@ -6,10 +6,17 @@ The subset of TriviaQA, SQuAD Open, NQ, QBLink and QANTA dataset that is used to
 ## Pretrained Models
 The pretrained models for both triple retrieval and answer selection, can be found [here](https://drive.google.com/drive/folders/1fQUyknhOIdm2N2O-xj8oSECcPixy9w4F?usp=share_link). Unzip and place it in model folder.
 
+## Testing The Models
+To test the models for the selected dataset run the following code. Make sure that pretrained models are downloaded and placed under the Model folder.
+
+
+
+## Training The Models
+
 ## Baseline Setting
 To run the baselines we utilized the following settings.
 
-|DATAset| Best-k|Retriver| Reader | Beta | Gamma |
+|DATASET| Best-k|Retriver| Reader | Beta | Gamma |
 |--------|--------|--------|--------|--------|--------|
 | NQ | 50  | DPR  | Single  | -  | -  |
 | NQ | 5  | DPR+BM25  | Single  | -  | -  | 
