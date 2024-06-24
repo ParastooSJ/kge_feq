@@ -12,7 +12,7 @@ The subset of TriviaQA, SQuAD Open, NQ, QBLink and QANTA dataset that is used to
 The pretrained models for both triple retrieval and answer selection, can be found [here](https://drive.google.com/drive/folders/1fQUyknhOIdm2N2O-xj8oSECcPixy9w4F?usp=share_link). Unzip and place it in model folder.
 
 ## Testing The Models
-To test the models for the selected dataset run the following code. Make sure that pretrained models are downloaded and placed under the Model folder.
+To test the models for the selected dataset, you can run the following code. Please make sure that pretrained models are downloaded and placed under the Model folder.
 
 ```
 cd src/Answer/
@@ -20,6 +20,7 @@ python test {dataset_name}
 ```
 
 ## Training The Models
+To train model from scratch for the selected dataset, please run the following command. 
 ```
 cd src/Answer/
 python train {dataset_name}
