@@ -15,14 +15,14 @@ The pretrained models for both triple retrieval and answer selection, can be fou
 To test the models for the selected dataset, you can run the following code. Please make sure that pretrained models are downloaded and placed under the Model folder.
 
 ```
-cd src/Answer/
+cd src/
 python test {dataset_name}
 ```
 
 ## Training The Models
 To train model from scratch for the selected dataset, please run the following command. 
 ```
-cd src/Answer/
+cd src/
 python train {dataset_name}
 ```
 
