@@ -1,3 +1,8 @@
+## Knowledge Graph Embedding for Factoid Entity Question Answering
+KGE-FEQ is a hybrid framework designed to address the challenges of answering factoid entity questions. Unlike traditional open-domain question answering systems that rely on the explicit mention of entities in text or structured knowledge graphs constrained by predefined schemas, KGE-FEQ leverages a textual knowledge graph. This approach integrates structured knowledge from knowledge graphs with textual relationships derived from large text corpora. By embedding both the entities and their textual relationships, KGE-FEQ effectively retrieves relevant triples and identifies the most appropriate entity to answer a given question, circumventing the limitations of formal query languages and shallow ontologies.
+
+KGE-FEQ operates through two main phases: Triple Retrieval and Answer Selection. In the Triple Retrieval phase, the model learns to retrieve a set of semantically related triples from a textual knowledge graph based on the question. Subsequently, during the Answer Selection phase, KGE-FEQ employs a knowledge graph embedding approach to score and rank entities within the retrieved triples. The model positions the embedding of the answer entity close to that of the question entity, taking into account the question, answer entities, and their textual relationships. Experimental evaluations demonstrate KGE-FEQ's superior performance across various benchmarks, outperforming existing methods in both open-domain and factoid entity question answering. 
+## Files
 The data, models, results and baselines for TriviaQA, SQuAD Open, NQ, QBLINk and QANTA can be downloaded [here](https://drive.google.com/drive/folders/1fQUyknhOIdm2N2O-xj8oSECcPixy9w4F?usp=share_link)
 
 ## DATA
