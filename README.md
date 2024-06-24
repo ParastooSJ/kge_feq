@@ -16,14 +16,14 @@ To test the models for the selected dataset, you can run the following code. Ple
 
 ```
 cd src/
-python test {dataset_name}
+python main.py test {dataset_name}
 ```
 
 ## Training The Models
 To train model from scratch for the selected dataset, please run the following command. 
 ```
 cd src/
-python train {dataset_name}
+python main.py train {dataset_name}
 ```
 
 ## Baseline Setting
