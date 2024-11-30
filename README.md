@@ -56,4 +56,15 @@ To run the baselines we utilized the following Github repositories [Pygaggle](ht
 | SQuAD | 100  | GAR F  | Single  | 0.43  | 0.30  |
 | SQuAD | 20  | GAR F+BM25  | Single  | 0.32  | 0.19  |
 
+## Citation
+#### If you find our code and data useful, please cite our paper.
+```
+@article{jafarzadeh2024knowledge,
+  title={A Knowledge Graph Embedding Model for Answering Factoid Entity Questions},
+  author={Jafarzadeh, Parastoo and Ensan, Faezeh and Ali Akbar Alavi, Mahdiyar and Zarrinkalam, Fattane},
+  journal={ACM Transactions on Information Systems},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+```
 
